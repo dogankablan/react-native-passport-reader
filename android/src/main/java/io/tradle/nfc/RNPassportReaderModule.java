@@ -472,4 +472,13 @@ public class RNPassportReaderModule extends ReactContextBaseJavaModule implement
     }
     reactApplicationContext.getJSModule(RCTDeviceEventEmitter.class).emit(eventName, null);
   }
+       @ReactMethod
+      public void addListener(String eventName) {
+
+      }
+
+      @ReactMethod
+      public void removeListeners(Integer count) {
+
+      }
 }
